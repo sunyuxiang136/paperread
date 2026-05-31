@@ -1,0 +1,51 @@
+# ============================================================
+# 字节跳动 ByteDance
+# ============================================================
+
+# ChromaDB 向量数据库（二进制文件，每人本地运行时自动生成）
+chroma_db/
+
+# 上传的论文 PDF（版权保护，不可公开分发）
+papers/*.pdf
+# 保留 papers/ 目录结构（以便 git clone 后有这个目录）
+!papers/.gitkeep
+
+# Streamlit 运行时截图
+images/
+
+# Python 虚拟环境
+.venv/
+venv/
+env/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# IDE 配置（保留 .streamlit/ 目录）
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 软著申报材料（含个人信息）
+软著申报_*
+软著核心设计文档_*
+
+# 内部工具脚本（非系统核心代码）
+_gen_source_doc.py
+_verify.py
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
